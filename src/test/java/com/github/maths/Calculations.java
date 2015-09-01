@@ -20,7 +20,9 @@ public class Calculations {
 	  driver.get("http://docs.seleniumhq.org/");
 	  
 	  String sTitle = driver.getTitle();
-	  System.out.println(sTitle);  
+	  System.out.println(sTitle);
+	  
+	  driver.quit();
 	  
   }
   
